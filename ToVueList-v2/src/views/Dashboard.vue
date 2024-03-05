@@ -18,8 +18,11 @@ watch(search, () => {
             <h3>Search Task: </h3>
             <input type="text" v-model.trim="search" placeholder="Looking for a specific task?">
         </div>
-        <div class="tasks-container">
+        <div v-if="tasks" class="tasks-container">
             <TaskCard v-for="task in tasks" :key="task.id" :task="task"/>
+        </div>
+        <div v-else>
+            <p>Woohoo! All tasks are complete!</p>
         </div>
     </div>
 </template>

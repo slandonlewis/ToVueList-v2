@@ -12,6 +12,8 @@
         <h1>{{ task.name }}</h1>
         <h3>Task Description:</h3>
         <p>{{ task.description }}</p>
+        <button>Edit</button>
+        <button>Delete</button>
     </div>
     <div v-else>
         <h1>Task Not Found...</h1>
