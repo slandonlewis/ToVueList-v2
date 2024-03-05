@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Do Dishes",
+        "description": "Wash, dry, and put away all dishes"
+    },
+    {
+        "id": 2,
+        "name": "Do Laundry",
+        "description": "Wash, dry, and put away all clothes"
+    },
+    {
+        "id": 3,
+        "name": "Get Groceries",
+        "description": "Pick up eggs, milk, and cheese from the store"
+    },
+    {
+        "id": 4,
+        "name": "Food Prep",
+        "description": "Cook food and store it for the week"
+    }
+]
